@@ -1,5 +1,4 @@
 .page {
-  /* Add page class properties here */
   margin: auto;
   min-width: 1100px;
   max-width: 1600px;
@@ -20,7 +19,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +30,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   list-style-type: none;
   margin: 8px 0 0 0;
   padding: 0;
@@ -191,33 +188,28 @@
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   flex-direction: column-reverse;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   flex-direction: column-reverse;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 79px;
   left: 159px;
 }
@@ -267,7 +259,6 @@
   color: #fff;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0 auto;
@@ -335,7 +326,6 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
   display: flex;
   justify-content: center;
   flex-basis: 220px;
@@ -343,7 +333,6 @@
 }
 
 .step {
-  /* Add styles */
   max-width: 220px;
   max-height: 40px;
 }
@@ -442,7 +431,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
